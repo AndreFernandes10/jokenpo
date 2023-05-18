@@ -54,17 +54,17 @@ public class MainActivity extends AppCompatActivity {
                    (opçoesApp == "tesoura" && opcaoSelecionada =="papel") ||
                            (opçoesApp == "papel" && opcaoSelecionada =="pedra" ) ||
                            (opçoesApp == "pedra" && opcaoSelecionada =="tesoura") ){
-               textoMudado.setText("Você é muito bizonho");
+               textoMudado.setText("Você é perdeu :( ");
 
 
            } else if(
                    (opcaoSelecionada== "tesoura" && opçoesApp =="papel") ||
                            (opcaoSelecionada == "papel" && opçoesApp =="pedra" ) ||
                            (opcaoSelecionada == "pedra" && opçoesApp =="tesoura") ){
-               textoMudado.setText("PARABÉNS você ganhou de uma máquina");
+               textoMudado.setText("PARABÉNS você ganhou :)  ");
 
            } else{
-               textoMudado.setText("EMPATE de bizonhos");
+               textoMudado.setText("Empatou  ");
 
            }
 
